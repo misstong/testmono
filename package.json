@@ -1,0 +1,17 @@
+{
+  "name": "monorepo101",
+  "private": "true",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "@changesets/cli": "^2.26.1"
+  },
+	"scripts": {
+		"changesets": "yarn changeset",
+		"release": "yarn changeset release"
+	}
+}
