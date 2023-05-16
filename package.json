@@ -12,6 +12,6 @@
   },
 	"scripts": {
 		"changesets": "yarn changeset",
-		"release": "yarn changeset release"
+		"release": "yarn changeset publish"
 	}
 }
